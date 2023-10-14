@@ -54,3 +54,7 @@
     font-family: "Montserrat";
     font-weight: 700;
 }
+
+.salto{
+    page-break-after: always;
+}
