@@ -1,5 +1,6 @@
 <?php
 
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
@@ -16,7 +17,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     //$pdf = App::make('dompdf.wrapper');
-    $pdf = app('dompdf.wrapper');
-    $pdf->loadHTML('<h1>Hola PDF desde helper app</h1>');
+    //$pdf = app('dompdf.wrapper');
+
+    $pdf = Pdf::loadHTML('<h1>Hola PDF desde facade Pdf</h1>');
     return $pdf->stream();
 });
