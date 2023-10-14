@@ -18,7 +18,7 @@ use Barryvdh\DomPDF\Facade\Pdf as PDF;
 Route::get('/', function () {
 
     $users= User::factory(5)->make();
-    $pdf = PDF::loadView('pdf.pdf', [
+    $pdf = PDF::setPaper('a5','landscape')->loadView('pdf.pdf', [
         'titulo' => 'Este es mi título',
         'contenido' => 'Este es mi contenido',
         'usuarios' => $users
