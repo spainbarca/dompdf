@@ -24,5 +24,8 @@ Route::get('/', function () {
         'usuarios' => $users
     ]);
 
+    // ['print' => 4, 'modify' => 8, 'copy' => 16, 'add' => 32];
+    $pdf->setEncryption('123456','DomPdf2023@',[]);
+
     return $pdf->stream();
 });
