@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $pdf = App::make('dompdf.wrapper');
+    $pdf->loadHTML('<h1>Hola PDF</h1>');
+    return $pdf->stream();
 });
