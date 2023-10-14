@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $pdf = App::make('dompdf.wrapper');
-    $pdf->loadHTML('<h1>Hola PDF</h1>');
+    //$pdf = App::make('dompdf.wrapper');
+    $pdf = app('dompdf.wrapper');
+    $pdf->loadHTML('<h1>Hola PDF desde helper app</h1>');
     return $pdf->stream();
 });
