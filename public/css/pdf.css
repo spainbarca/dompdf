@@ -1,10 +1,47 @@
 @page{
-    margin: 0.5cm;
+    margin: 3cm 0.5cm 2cm 0.5cm;
 }
 .titulo{
     color: red;
-    margin: 0.5cm;
 }
 .p{
-    font-weight: 700;
+    font-weight: 400;
+}
+
+#header {
+    position: fixed;
+    top: -2.5cm;
+    left: 0cm;
+    margin-bottom: 1cm;
+}
+
+.imgHeader{
+    float: left;
+    width: 2cm;
+}
+
+.infoHeader{
+    float: left;
+    margin-left: 1cm;
+}
+
+#footer{
+    position: fixed;
+    bottom: -1.5cm;
+    left: 0cm;
+    background-color: blue;
+    width: 100%;
+}
+
+.textFooter{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.hijo{
+    width: 5cm;
+    height: 0.5cm;
+    margin: 0.25cm;
+    background-color: yellow;
 }

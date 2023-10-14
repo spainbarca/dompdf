@@ -6,14 +6,21 @@
     <link rel="stylesheet" href="{{ public_path('css/pdf.css') }}">
 </head>
 <body>
-    <h1>{{ $contenido }}</h1>
-    <div>
-        <img src="https://img.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg" alt="">
-        <hr>
-        <img src={{ public_path('img/kings-league.png') }} alt="">
-        <h2 class="titulo">Kings League</h2>
-        <p class="p">La Kings League, denominada oficialmente por motivos de patrocinio como Kings League InfoJobs, es una liga de fútbol 7 con sede en Barcelona, España, creada por el exfutbolista Gerard Piqué en 2022 en asociación con otras personalidades de internet y streamers.</p>
-        <button>Vamos!!</button>
+    <div id="header">
+        <img class="imgHeader" src="https://discord.onl/wp-content/uploads/2023/09/LKGS-La-Kings-League-SLS.jpg" alt="">
+        <div class="infoHeader">
+            <p ><b><u>Kings League Finals Malaga</u></b></p>
+            <p>Disputar la Final Four de la Kings y Queens Cup en el estadio de La Rosaleda</p>
+        </div>
+    </div>
+    <div id="footer">
+        <p class="textFooter">kingsleague.pro</p>
+    </div>
+
+    <div class="container">
+        @for ($i=0;$i<40;$i++)
+            <div class="hijo"></div>
+        @endfor
     </div>
 </body>
 </html>
