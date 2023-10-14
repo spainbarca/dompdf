@@ -43,3 +43,14 @@
 }
 
 
+@font-face {
+    font-family: "Montserrat";
+    src: url('storage/fonts/Montserrat-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+.bold{
+    font-family: "Montserrat";
+    font-weight: 700;
+}

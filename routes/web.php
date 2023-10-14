@@ -1,7 +1,8 @@
 <?php
 
-use Barryvdh\DomPDF\Facade\Pdf as PDF;
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
+use Barryvdh\DomPDF\Facade\Pdf as PDF;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,9 +17,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
+    $users= User::factory(5)->make();
     $pdf = PDF::loadView('pdf.pdf', [
         'titulo' => 'Este es mi título',
-        'contenido' => 'Este es mi contenido'
+        'contenido' => 'Este es mi contenido',
+        'usuarios' => $users
     ]);
 
     return $pdf->stream();

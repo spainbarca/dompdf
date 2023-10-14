@@ -4,20 +4,6 @@
     <meta charset="utf-8">
     <title>{{ $titulo }}</title>
     <link rel="stylesheet" href="{{ public_path('css/pdf.css') }}">
-    <style>
-        @font-face {
-            font-family: "Montserrat";
-            src: url('storage/fonts/Montserrat-Bold.ttf') format('truetype');
-            font-style: normal;
-            font-weight: 700;
-        }
-
-        .bold{
-            font-family: "Montserrat";
-            font-weight: 700;
-        }
-
-    </style>
 </head>
 <body>
     <div id="header">
@@ -32,6 +18,12 @@
     </div>
 
     <p class="bold">Fuente Montserrat</p>
+    <p class="bold">{{ $contenido }}</p>
 
+    <h1>Listado de Usuarios Faker</h1><hr>
+    @foreach ($usuarios as $usuario)
+        <h2 class="bold">{{ $usuario->name }}</h2>
+        <p>{{ $usuario->email }}</p>
+    @endforeach
 </body>
 </html>
