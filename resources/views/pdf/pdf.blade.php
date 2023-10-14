@@ -4,6 +4,20 @@
     <meta charset="utf-8">
     <title>{{ $titulo }}</title>
     <link rel="stylesheet" href="{{ public_path('css/pdf.css') }}">
+    <style>
+        @font-face {
+            font-family: "Montserrat";
+            src: url('storage/fonts/Montserrat-Bold.ttf') format('truetype');
+            font-style: normal;
+            font-weight: 700;
+        }
+
+        .bold{
+            font-family: "Montserrat";
+            font-weight: 700;
+        }
+
+    </style>
 </head>
 <body>
     <div id="header">
@@ -17,10 +31,7 @@
         <p class="textFooter">kingsleague.pro</p>
     </div>
 
-    <div class="container">
-        @for ($i=0;$i<40;$i++)
-            <div class="hijo"></div>
-        @endfor
-    </div>
+    <p class="bold">Fuente Montserrat</p>
+
 </body>
 </html>

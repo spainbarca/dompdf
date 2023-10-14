@@ -1,0 +1,114 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright ©2017, GGIllustrations. All Rights Reserved.
+FontName GG
+FontSubfamily Medium
+UniqueID GG
+FullName GG
+Version GG-1
+PostScriptName GG
+Trademark buccarellagiada@hotmail.com
+Designer GGIllustrations
+FontDesignerURL creativemarket.com/gì.gì
+Weight Bold
+ItalicAngle -11
+IsFixedPitch false
+UnderlineThickness 20
+UnderlinePosition -153
+FontHeightOffset 0
+Ascender 829
+Descender -171
+FontBBox -72 -184 917 829
+StartCharMetrics 92
+U 32 ; WX 168 ; N space ; G 3
+U 33 ; WX 172 ; N exclam ; G 4
+U 38 ; WX 536 ; N ampersand ; G 5
+U 39 ; WX 159 ; N quotesingle ; G 6
+U 44 ; WX 159 ; N comma ; G 7
+U 45 ; WX 320 ; N hyphen ; G 8
+U 46 ; WX 170 ; N period ; G 9
+U 47 ; WX 398 ; N slash ; G 10
+U 48 ; WX 513 ; N zero ; G 11
+U 49 ; WX 225 ; N one ; G 12
+U 50 ; WX 436 ; N two ; G 13
+U 51 ; WX 461 ; N three ; G 14
+U 52 ; WX 479 ; N four ; G 15
+U 53 ; WX 440 ; N five ; G 16
+U 54 ; WX 476 ; N six ; G 17
+U 55 ; WX 431 ; N seven ; G 18
+U 56 ; WX 483 ; N eight ; G 19
+U 57 ; WX 452 ; N nine ; G 20
+U 58 ; WX 178 ; N colon ; G 21
+U 59 ; WX 160 ; N semicolon ; G 22
+U 63 ; WX 402 ; N question ; G 23
+U 65 ; WX 709 ; N A ; G 24
+U 66 ; WX 706 ; N B ; G 25
+U 67 ; WX 640 ; N C ; G 26
+U 68 ; WX 751 ; N D ; G 27
+U 69 ; WX 637 ; N E ; G 28
+U 70 ; WX 638 ; N F ; G 29
+U 71 ; WX 715 ; N G ; G 30
+U 72 ; WX 798 ; N H ; G 31
+U 73 ; WX 352 ; N I ; G 32
+U 74 ; WX 418 ; N J ; G 33
+U 75 ; WX 770 ; N K ; G 34
+U 76 ; WX 682 ; N L ; G 35
+U 77 ; WX 765 ; N M ; G 36
+U 78 ; WX 682 ; N N ; G 37
+U 79 ; WX 677 ; N O ; G 38
+U 80 ; WX 508 ; N P ; G 39
+U 81 ; WX 721 ; N Q ; G 40
+U 82 ; WX 680 ; N R ; G 41
+U 83 ; WX 519 ; N S ; G 42
+U 84 ; WX 662 ; N T ; G 43
+U 85 ; WX 577 ; N U ; G 44
+U 86 ; WX 711 ; N V ; G 45
+U 87 ; WX 931 ; N W ; G 46
+U 88 ; WX 560 ; N X ; G 47
+U 89 ; WX 610 ; N Y ; G 48
+U 90 ; WX 510 ; N Z ; G 49
+U 97 ; WX 389 ; N a ; G 50
+U 98 ; WX 447 ; N b ; G 51
+U 99 ; WX 506 ; N c ; G 52
+U 100 ; WX 445 ; N d ; G 53
+U 101 ; WX 506 ; N e ; G 54
+U 102 ; WX 459 ; N f ; G 55
+U 103 ; WX 503 ; N g ; G 56
+U 104 ; WX 421 ; N h ; G 57
+U 105 ; WX 163 ; N i ; G 58
+U 106 ; WX 371 ; N j ; G 59
+U 107 ; WX 404 ; N k ; G 60
+U 108 ; WX 174 ; N l ; G 61
+U 109 ; WX 737 ; N m ; G 62
+U 110 ; WX 459 ; N n ; G 63
+U 111 ; WX 551 ; N o ; G 64
+U 112 ; WX 464 ; N p ; G 65
+U 113 ; WX 465 ; N q ; G 66
+U 114 ; WX 293 ; N r ; G 67
+U 115 ; WX 355 ; N s ; G 68
+U 116 ; WX 406 ; N t ; G 69
+U 117 ; WX 496 ; N u ; G 70
+U 118 ; WX 432 ; N v ; G 71
+U 119 ; WX 659 ; N w ; G 72
+U 120 ; WX 394 ; N x ; G 73
+U 121 ; WX 569 ; N y ; G 74
+U 122 ; WX 494 ; N z ; G 75
+U 160 ; WX 112 ; N nbspace ; G 76
+U 168 ; WX 910 ; N dieresis ; G 77
+U 170 ; WX 910 ; N ordfeminine ; G 78
+U 174 ; WX 69 ; N registered ; G 79
+U 202 ; WX 910 ; N Ecircumflex ; G 80
+U 212 ; WX 409 ; N Ocircumflex ; G 81
+U 224 ; WX 1000 ; N agrave ; G 82
+U 228 ; WX 1000 ; N adieresis ; G 83
+U 239 ; WX 1000 ; N idieresis ; G 84
+U 240 ; WX 1000 ; N eth ; G 85
+U 8208 ; WX 320 ; N hyphen ; G 8
+U 8225 ; WX 555 ; N daggerdbl ; G 86
+U 8240 ; WX 566 ; N perthousand ; G 87
+U 8482 ; WX 90 ; N trademark ; G 88
+U 61440 ; WX 498 ; N applelogo ; G 89
+EndCharMetrics
+EndFontMetrics
